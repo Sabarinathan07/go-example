@@ -11,6 +11,10 @@ func plusPlus(a, b, c int) int {
 	return a + b + c
 }
 
+func vals() (int, int) {
+	return 1,2
+}
+
 func main() {
 
 	res := plus(1, 2)
@@ -18,4 +22,9 @@ func main() {
 
 	res = plusPlus(1, 2, 3)
 	fmt.Println("1+2+3 =", res)
+
+	a, b := vals()
+	fmt.Println("a,b =", a, b)
+	_, c := vals()
+	fmt.Println("c =", c)
 }
