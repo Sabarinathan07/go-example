@@ -39,7 +39,7 @@ func measure(g geometry) {
 
 func detectCircle(g geometry) {
     if c, ok := g.(circle); ok {
-        fmt.Println("circle with radius", c.radius)
+        fmt.Println("circle with radiusss", c.radius)
     }
 }
 
