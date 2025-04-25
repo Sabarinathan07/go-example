@@ -24,3 +24,5 @@ func main() {
     fmt.Println("area: ", rp.area())
     fmt.Println("perim:", rp.perim())
 }
+
+//  go will take care of the pointer and conversions
