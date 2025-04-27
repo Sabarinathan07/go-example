@@ -54,7 +54,7 @@ func transition(s ServerState) ServerState {
 // 	fmt.Println(ns2)
 // }
 
-// it can also be written like this
+// It can also be written like this
 func main() {
     ns := transition(STARTING)
     fmt.Println(ns)
