@@ -47,9 +47,17 @@ func transition(s ServerState) ServerState {
 	}
 }
 
+// func main() {
+// 	ns := transition(STARTING)
+// 	fmt.Println(ns)
+// 	ns2 := transition(ns)
+// 	fmt.Println(ns2)
+// }
+
+// it can also be written like this
 func main() {
-	ns := transition(STARTING)
-	fmt.Println(ns)
-	ns2 := transition(ns)
-	fmt.Println(ns2)
+    ns := transition(STARTING)
+    fmt.Println(ns)
+    ns = transition(ns)
+    fmt.Println(ns)
 }
