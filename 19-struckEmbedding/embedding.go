@@ -26,7 +26,7 @@ func main() {
 
     fmt.Printf("co={num: %v, str: %v}\n", co.num, co.str)
 
-    fmt.Println("also num:", co.base.num)
+    fmt.Println("also number:", co.base.num)
 
     fmt.Println("describe:", co.describe())
 
