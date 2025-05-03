@@ -24,7 +24,7 @@ func main() {
         str: "some name",
     }
 
-    fmt.Printf("co={num: %v, str: %v}\n", co.num, co.str)
+    fmt.Printf("co={number: %v, str: %v}\n", co.num, co.str)
 
     fmt.Println("also number:", co.base.num)
 
