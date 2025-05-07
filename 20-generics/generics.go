@@ -44,7 +44,7 @@ func (list *LinkedList[T]) Elements() []T {
 }
 
 func main() {
-    var fruits = []string{"food", "bar", "zoo"}
+    var fruits = []string{"foo", "bar", "zoo"}
 
     fmt.Println("index of zoo:", FindIndex(fruits, "zoo"))
 
