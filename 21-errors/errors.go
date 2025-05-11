@@ -1,8 +1,8 @@
 package main
 
 import (
-    "errors"
-    "fmt"
+	"errors"
+	"fmt"
 )
 
 func f(arg int) (int, error) {
@@ -50,6 +50,6 @@ func main() {
             continue
         }
 
-        fmt.Println("Tea is ready!")
+        fmt.Println("Tea is ready")
     }
 }
