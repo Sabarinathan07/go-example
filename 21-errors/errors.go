@@ -50,6 +50,6 @@ func main() {
             continue
         }
 
-        fmt.Println("Tea is ready")
+        fmt.Println("tea is ready")
     }
 }
