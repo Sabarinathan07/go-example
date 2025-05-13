@@ -41,7 +41,7 @@ func main() {
         if err := makeTea(i); err != nil {
 
             if errors.Is(err, ErrOutOfTea) {
-                fmt.Println("We should buy new tea!")
+                fmt.Println("We should buy new Tea!")
             } else if errors.Is(err, ErrPower) {
                 fmt.Println("Now it is dark.")
             } else {
