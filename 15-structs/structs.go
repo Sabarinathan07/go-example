@@ -44,3 +44,5 @@ func main() {
 // step 2
 //  cd 15-structs
 // go run .
+
+// follow the steps
