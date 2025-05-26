@@ -44,4 +44,14 @@ func main() {
 
 	fmt.Println(m, n, o)
 	fmt.Println(p, q, r)
+	// Zero values
+	var x int
+	var y float64
+	var z bool
+	var w string
+	fmt.Println("Zero values:")
+	fmt.Println("int:", x)
+	fmt.Println("float64:", y)
+	fmt.Println("bool:", z)	
+	fmt.Println("string:", w)
 }
