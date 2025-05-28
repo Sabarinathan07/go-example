@@ -34,4 +34,13 @@ func main() {
 		}
 		i++;
 	}
+
+	fmt.Println("done with for loop")
+	for i := 1; i <= 10; i++ {	
+		if i%2 == 0 {
+			continue // skip even numbers
+		}
+		fmt.Print(i, " ")
+	}
+	fmt.Println()
 }
