@@ -50,5 +50,6 @@ func main() {
 	whatAmI(true)
 	whatAmI(1)
 	whatAmI("hey")
+	whatAmI(3.14)
 
 }
