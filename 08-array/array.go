@@ -42,4 +42,6 @@ func main() {
 	// fmt.Println("type of twodArr", typeof twoDArr[0])
 	fmt.Println("type of  ", reflect.TypeOf(twoDArr))
 
+	fmt.Println("type of  ", reflect.TypeOf(twoDArr[0]))
+
 }
