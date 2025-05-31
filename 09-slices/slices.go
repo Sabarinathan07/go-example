@@ -69,4 +69,6 @@ func main() {
 	}
 	fmt.Println("2d: ", twoD)
 
+	fmt.Println("2d: ", twoD[1][2])
+
 }
