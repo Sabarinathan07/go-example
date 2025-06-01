@@ -23,4 +23,7 @@ func main() {
 
 	time.Sleep(time.Second)
 	fmt.Println("done")
+
+	f("done")
+	fmt.Println("done with goroutines")
 }
