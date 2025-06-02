@@ -33,4 +33,10 @@ func main() {
 	} else {
 		fmt.Println("err doesn't match argError")
 	}
+
+	if err != nil {	
+		fmt.Println(err)
+	} else {
+		fmt.Println("No error")
+	}
 }
