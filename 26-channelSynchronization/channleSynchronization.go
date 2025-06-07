@@ -24,7 +24,9 @@ func main() {
 	time.Sleep(1 * time.Second) // Simulate some work in main
 	fmt.Println("waiting... in main")
 
-	<-done
+	cc := <-done // Wait for the worker to finish
+    fmt.Println(cc, "received from worker")
+    fmt.Println("worker finished, main resuming...")
 
 	fmt.Println("worker finished, main exiting")
 }
