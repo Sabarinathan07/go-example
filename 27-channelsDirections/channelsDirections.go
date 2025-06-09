@@ -11,6 +11,7 @@ func ping(pings chan<- string, msg string) {
 func pong(pings <-chan string, pongs chan<- string) {
 	// Receive a message from the pings channel and send it to the pongs channel
 	fmt.Println("ponging...", "received", "from pings", pongs)
+	//  if i consoled  <-pings, it will console the msg but after that it will throw an error because the pings channel is empty
 	msg := <-pings
 	pongs <- msg
 }
